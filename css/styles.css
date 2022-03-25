@@ -1,1 +1,13 @@
-.jumbotron
+.jumbotron {
+  text-align: center;
+  font-family:monospace;
+  font-weight: bolder;
+  background-color: transparent;
+}
+  
+.container {
+  margin: auto;
+  border: 2px black;
+  padding: 5px;
+  background-color: transparent;
+}

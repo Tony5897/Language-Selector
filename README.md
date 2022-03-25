@@ -1,14 +1,14 @@
-# ***By Tony Martinez***
+
+# *My Programming Language Selector*
+
+# *By Tony Martinez*
 
 
-## **Language-Selctor**
+# *A Programming-Language-Suggestion Web Application*
 
 # Technologies Used:
- * ***EXAMPLE: PROGRAMMING LANGUAGES USED, FRAMEWORK, ETC.***
  * _HTML,_ _CSS,_ _and_ _JavaScript_
- * _jQuery_, _bootstrap_, _ect_....
- * _Any other major technologies?_
- *
+ * _jQuery-3.6.0_, _bootstrap_
 
  # Description
  * _Where_
@@ -37,4 +37,4 @@
  ### License :
 https://opensource.org/licenses/MIT 
  #### Copyright(c)
-*03/22/2022 Antonio Martinez*
+*03-25-2022 Antonio Martinez*
