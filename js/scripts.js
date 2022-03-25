@@ -14,7 +14,7 @@
 
 
 // User Interface Logic
-$(document).ready(function()  {
+$(document).submit(function()  {
   $("").click(function()  {
     $("").       ();
     $("").       ();
