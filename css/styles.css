@@ -1,4 +1,11 @@
-#swift  {
+.btn  {
+  margin-top: 40px;
+  background-color: lightskyblue;
+  text-decoration-color: black;
+  border-radius: 5px;
+  border-color: black;
+}
+#other, #swift {
   display: none;
 }
 #kotlin {
@@ -9,7 +16,6 @@
 }
 .title  {
   text-align: center;
-  margin-top: 40px;
   margin-bottom: 40px;
 }
 .secondary  {
@@ -17,7 +23,8 @@
   margin-top: 40px;
   margin-bottom: 40px;
   font-family: monospace;
-  font-weight: bold;
+  font-weight: lighter;
+  font-style: italic;
 }
 .middle-img  {
   margin:auto;
@@ -31,12 +38,13 @@
   text-align: center;
   font-family:monospace;
   font-weight: bolder;
+  font-stretch: extra-expanded;
   background-color: transparent;
 }
 .container {
   margin: auto;
   border: 2px black;
   padding: 5px;
-  background-color: transparent;
-  box-sizing:content-box;
+  background-color:whitesmoke;
+  box-sizing:border-box;
 }
