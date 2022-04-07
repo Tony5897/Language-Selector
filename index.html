@@ -9,43 +9,49 @@
 </head>
 <body>
   <div class="container">
-    <form id="docForm">
-    <div class="form-group">
-      <h4>Question 1: Do you like cats?</h4>
-      <label for="Question1">Answer :</label>
-      <input type="radio" id="radio" name="pick1" value="3">Yes</input>
-      <input type="radio" id="radio" name="pick1" value="1">No</input>
+    <div class="jumbotron">
+      <h1>Programming-Suggester</h1>
     </div>
-    <div class="form-group">
-      <h4>Question 1: Do you like cats?</h4>
-      <label for="Question1">Answer :</label>
-      <input type="radio" id="radio" name="pick2" value="3">Yes</input>
-      <input type="radio" id="radio" name="pick2" value="1">No</input>
-    </div> 
-    <div class="form-group">
-      <h4>Question 1: Do you like cats?</h4>
-      <label for="Question1">Answer :</label>
-      <input type="radio" id="radio" name="pick3" value="3">Yes</input>
-      <input type="radio" id="radio" name="pick3" value="1">No</input>
+    <div class="row">
+      <div class="col-md-3">
+        <div>
+          <h4>Quest-Header</h4>
+        </div>
+      <div class="form">
+        <div class="form-group">
+          <label for="queOne">Do you like cats or dogs?</label>
+          <select id="queOne">
+            <option value="cat">Cat</option>
+            <option value="dog">Dogs</option>
+          </select>
+        </div>
+        <div class="form">
+          <div class="form-group">
+            <label for="queTwo">Do you like coffee or tea?</label>
+            <select id="queTwo">
+              <option value="coffee">Coffee</option>
+              <option value="tea">Tea</option>
+            </select>
+          </div>
+          <div class="form">
+            <div class="form-group">
+              <label for="queThree">Do you like apples or oranges?</label>
+              <select id="queThree">
+                <option value="apple">Apples</option>
+                <option value="orange">Oranges</option>
+              </select>
+            </div>
+          <button class="btn" type="Submit">Submit</button>
+          <div id="output">
+        </div>
+      </form>
     </div>
-    <div class="form-group">
-      <h4>Question 1: Do you like cats?</h4>
-      <label for="Question1">Answer :</label>
-      <input type="radio" id="radio" name="pick4" value="3">Yes</input>
-      <input type="radio" id="radio" name="pick4" value="1">No</input>
-    </div>  
-      <h4>Question 1: Do you like cats?</h4>
-      <label for="Question1">Answer :</label>
-      <input type="radio" id="radio" name="pick5" value="3">Yes</input>
-      <input type="radio" id="radio" name="pick5" value="1">No</input>
-    </div>
-      <button id="button" class="btn-primary">Submit</button>
-    </form>
-    <div id="output">
       <p>You got Swift!</p>
-    </div>
     <img src="img/langart.png" class="middle-img">
   </div>
   </div>
 </body>
 </html>
+
+
+
